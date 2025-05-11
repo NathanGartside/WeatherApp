@@ -78,14 +78,12 @@ public class WeatherApp {
         JSONObject jsonObject = new JSONObject(content.toString());
         // Grab the min and max temperature for the next 7 days
         JSONObject weatherdata = jsonObject.getJSONObject("daily");
-        System.out.println(weatherdata);
 
         // Store the min max temperature and the date in seprate json arrays
         JSONArray tempMax = getArray(weatherdata, "temperature_2m_max");
         JSONArray tempMin = getArray(weatherdata, "temperature_2m_min");
         JSONArray date = getArray(weatherdata, "time");
         JSONArray weatherCode = getArray(weatherdata, "weather_code");
-        ;
 
         // Make a hashmap for all the weather codes
         HashMap<Integer, String> weatherCodeHashMap = setWeatjerHashMap();
