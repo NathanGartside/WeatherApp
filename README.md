@@ -16,8 +16,6 @@ I used Java and a bunch of Maven libraries to create this program. I used the IO
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-
 - I will better organize to make it look cleaner
 - I will provide more infomation in the actual weather forecast
 - I will add a user interface to the weather app so it looks better
