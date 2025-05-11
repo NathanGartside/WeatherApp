@@ -3,7 +3,7 @@
 This is a simple Java program that makes a API get request to a free weather API. I used a a few Maven libraries to make the request and to parse the data the request got. I made this program to learn more about the Java programing language.
 {Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/_n28WJQM_Kc)
 
 # Development Environment
 
